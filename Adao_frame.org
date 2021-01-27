@@ -15,26 +15,18 @@
    回调示例：
    #+BEGIN_EXAMPLE
    {
-   "code": 1,
-   "data": [
-   {
-   "id": 2,
-   "node": 1,
-   "happy_count": 1,
-   "step_up_count": 1,
-   "step_down_count": 1,
-   "weak_count": 0
-   },
-   {
-   "id": 3,
-   "node": 31163008,
-   "happy_count": 0,
-   "step_up_count": 0,
-   "step_down_count": 1,
-   "weak_count": 0
-   }
-   ],
-   "msg": "ok"
+       "code": 1,
+       "data": [
+           {
+               "id": 50,
+               "node": 31163008,
+               "happy_count": 0,
+               "step_up_count": 0,
+               "step_down_count": 0,
+               "weak_count": 1
+           }
+       ],
+       "msg": "ok"
    }
    #+END_EXAMPLE
 ** A岛框架串属性操作接口
