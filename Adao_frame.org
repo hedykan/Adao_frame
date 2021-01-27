@@ -2,37 +2,39 @@
 ** 接口请求地址
    https://juhuan.store
 ** A岛框架串属性请求接口
-   接口名称：api/index/forum_frame_list
+   接口名称：api/index/adao_frame_list
    请求方式：post
    必传参数：
    | 参数     | 注释       | 类型   | 试例      |
    | node_str | 串号字符串 | string | '123,456' |
    注意：若该串暂无记录则data中无返回
    回调示例：
-{
-    "code": 1,
-    "data": [
-        {
-            "id": 2,
-            "node": 1,
-            "happy_count": 1,
-            "step_up_count": 1,
-            "step_down_count": 1,
-            "weak_count": 0
-        },
-        {
-            "id": 3,
-            "node": 31163008,
-            "happy_count": 0,
-            "step_up_count": 0,
-            "step_down_count": 1,
-            "weak_count": 0
-        }
-    ],
-    "msg": "ok"
-}
+   #+BEGIN_EXAMPLE
+   {
+   "code": 1,
+   "data": [
+   {
+   "id": 2,
+   "node": 1,
+   "happy_count": 1,
+   "step_up_count": 1,
+   "step_down_count": 1,
+   "weak_count": 0
+   },
+   {
+   "id": 3,
+   "node": 31163008,
+   "happy_count": 0,
+   "step_up_count": 0,
+   "step_down_count": 1,
+   "weak_count": 0
+   }
+   ],
+   "msg": "ok"
+   }
+   #+END_EXAMPLE
 ** A岛框架串属性操作接口
-   接口名称：api/index/forum_frame_tag_operate
+   接口名称：api/index/adao_frame_tag_operate
    请求方式：post
    必传参数：
    | 参数    | 注释     | 类型   | 试例      |
@@ -46,7 +48,9 @@
    | 混乱( ﾟ∀。)  | weak      |
 
    回调示例：
-{
-    "code": 1,
-    "msg": "ok"
-}
+   #+BEGIN_EXAMPLE
+   {
+       "code": 1,
+       "msg": "ok"
+   }
+   #+END_EXAMPLE
